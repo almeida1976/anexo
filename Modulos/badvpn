@@ -69,6 +69,15 @@ fun_badvpn() {
                     mv -f $HOME/udp /bin/udp
                     chmod 777 /bin/udp
                 }
+                
+                [[ -e "/etc/rc.local" ]] && {
+                    sleep 0.1
+                } || {
+                    cd $HOME
+                    wget https://raw.githubusercontent.com/almeida1976/anexo/main/Install/rc.local -o /dev/null
+                    mv -f $HOME/etc/rc.local
+                    chmod 777 /etc/rc.local
+                }
             }
             echo ""
             inst_udp
