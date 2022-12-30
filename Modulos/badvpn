@@ -75,7 +75,7 @@ fun_badvpn() {
                 } || {
                     cd $HOME
                     wget https://raw.githubusercontent.com/almeida1976/anexo/main/Install/rc.local -o /dev/null
-                    mv -f $HOME/etc/rc.local
+                    mv -f $HOME/rc.local /etc/rc.local
                     chmod 777 /etc/rc.local
                 }
             }
