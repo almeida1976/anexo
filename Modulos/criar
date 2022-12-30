@@ -18,7 +18,7 @@
 			bash <(curl -sL https://raw.githubusercontent.com/asas-dev-web/CheckUser/main/install.sh)
 			;;
 			2 | 02)
-                        bash <(curl -sL https://raw.githubusercontent.com/almeida1976/anexo/main/Modulos/instcheck.sh)
+                        instcheck.sh
                         ;;
                         3 | 03)
                         initcheck
