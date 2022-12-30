@@ -18,11 +18,11 @@
 			bash <(curl -sL https://raw.githubusercontent.com/asas-dev-web/CheckUser/main/install.sh)
 			;;
 			2 | 02)
-            instcheck.sh
-            ;;
-            3 | 03)
-            initcheck
-            ;;
+                        bash <(curl -sL https://raw.githubusercontent.com/almeida1976/anexo/main/Modulos/instcheck.sh)
+                        ;;
+                        3 | 03)
+                        initcheck
+                        ;;
 			0 | 00)
 			clear
 			menu
