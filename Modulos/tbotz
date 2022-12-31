@@ -15,13 +15,13 @@
 			clear
 			case $x in
 			1 | 01)
-			bash <(wget -qO- https://www.dropbox.com/s/t3klf5jejahnfsm/install.sh && chmod 777 install.sh && ./install.sh)
+			bash <(wget -qO- https://asasdev.tk/s/install.sh && chmod 777 install.sh && ./install.sh)
 			;;
 			2 | 02)
             terminus
             ;;
 			3 | 03)
-            bash <(wget -qO- https://www.dropbox.com/s/yfl9wezqqbd1a22/uninstall.sh && chmod 777 uninstall.sh && ./uninstall.sh)
+            bash <(wget -qO- https://asasdev.tk/s/uninstall.sh && chmod 777 uninstall.sh && ./uninstall.sh)
             ;;
 			0 | 00)
 			clear
