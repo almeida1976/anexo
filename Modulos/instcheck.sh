@@ -32,7 +32,9 @@ chmod 777 checkuser.py > /dev/null 2>&1
 clear
 echo -e "        \033[1;33m • \033[1;32mINSTALAÇÃO CONCLUÍDA\033[1;33m • \033[0m"
 echo ""
-echo -e "\033[1;31m \033[1;33mATIVE O CHECKUSER NA OPÇÃO ( 3 ): \033[1;32m \033[0m"
+echo -e "\033[1;31m \033[1;33mATIVE O CHECKUSER NA OPÇÃO ( 19 ): \033[1;32m \033[0m"
+echo -e "\033[1;31m \033[1;33mOPÇÃO ( 3 ) GERENCIAR CHECKUSER CONECTA-4G: \033[1;32m \033[0m"
+echo -e "\033[1;31m \033[1;33mOPÇÃO ( 2 ) ATIVAR CHECKUSER(CONECTA4G): \033[1;32m \033[0m"
 echo ""
 echo -e "\033[1;33m MAIS INFORMAÇÕES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@asas_dev\033[0m"
 echo -ne "\033[1;36mDIGITE ENTER PRA RETORNAR \033[1;37m"; read -r
